@@ -28,7 +28,7 @@
                 <img src="../img/evaluna.png" class="img-fluid h-100" style="max-width: 30%; min-width: 30%;" alt="login 1 logo"/>
             </div>
             <div class="col-12 text-center titulologin">      
-                <h5 class="titulologin my-5"> Este es nuestro registro de clientes: </h5>      
+                <h5 class="titulologin my-5"> Este es nuestro registro de clientes para hoy: </h5>      
         </div>
 
     <div class="mt-5">
