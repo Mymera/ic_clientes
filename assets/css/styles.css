@@ -1,0 +1,645 @@
+
+@font-face {
+    font-family: "Sora";
+    src: url("../fonts/Sora/Sora-VariableFont_wght.ttf");
+  }
+  
+  @font-face {
+    font-family: "Source Sans 3";
+    src: url("../fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf");
+  }
+  
+  
+  @font-face {
+    font-family: "Material Icons Outlined";
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../iconos/material-icons-outlined.woff2") format("woff2");
+  }
+  .material-icons-outlined {
+    font-family: "Material Icons Outlined";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "liga";
+  }
+  
+  
+  @font-face {
+    font-family: "Material Icons Outlined";
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../iconos/material-icons-outlined.woff2") format("woff2");
+  }
+  .material-icons-outlined {
+    font-family: "Material Icons Outlined";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "liga";
+  }
+  
+  @font-face {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    font-weight: 100 700;
+    src: url("../iconos/material-symbols-rounded.woff2") format("woff2");
+  }
+  
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: 200;
+    font-style: normal;
+      font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+  }
+  
+  
+  .login {
+    background: linear-gradient(90deg, #ededed 0%, #dedede 0.01%, #9d9d9d 100%);
+  }
+  
+  .backgroundapp {
+    background: linear-gradient(90deg, #ededed 0%, #dedede 0.01%, #9d9d9d 100%);
+  }
+  
+  .cardstyle{
+
+    border: none;
+    background-color: #f6f7f7;
+  }
+
+  .cardstyle:hover{
+
+    background-color: #eeeeee; }
+
+
+    .textocard {
+      font-family: "Source Sans 3", sans-serif;
+      color: rgba(77, 77, 77, 1) !important;
+      font-size: 10pt;
+      font-weight: 500;
+    }
+
+
+  .cajalogin {
+    background-color: white;
+    border-radius: 40px;
+  }
+  
+  .sora {
+    font-family: "Sora" !important;
+  }
+  
+  .source {
+    font-family: "Source Sans 3" !important;
+  }
+  
+  .semibold {
+    font-weight: 600 !important;
+  }
+  
+  .imgcaja {
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  
+  .centrarcont {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    height: 100vh; /* Esto asegura que el contenedor ocupe toda la altura del viewport */
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .nodecoration {
+    text-decoration: none !important;
+    color: white;
+  }
+  
+  .imagen-responsiva {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .titulologin {
+    font-family: "Sora", sans-serif;
+    color: #27be39dc !important;
+    font-size: 21px;
+    font-weight: 600;
+  }
+
+  .subtitulologin {
+    font-family: "Sora", sans-serif;
+    color: #1c1b1a !important;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .etiquetalogin {
+    font-family: "Sora", sans-serif;
+    color: #1c1b1a !important;
+    font-size: 10pt;
+    font-weight: 700;
+  }
+  
+  .camposlogin {
+    background-color: #dedede !important;
+    border-radius: 0px !important;
+    font-size: 12pt !important;
+    padding: 9px !important;
+    font-family: "Source Sans 3" !important;
+    max-width: 700px;
+    min-width: 300px;
+  }
+  
+  .camposlogin:focus {
+    background-color: white !important;
+    box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.1) !important;
+    border-color: #be272e !important;
+  }
+  
+  
+  .etiquetaform {
+    font-family: "Source Sans 3", sans-serif;
+    color: #1C1B1A !important;
+    font-size: 8pt;
+    font-weight: 600;
+  }
+
+  .contenidomodal {
+    font-family: "Source Sans 3", sans-serif;
+    color: #1C1B1A !important;
+    font-size: 12pt;
+    font-weight: 400;
+  }
+  
+  
+
+  .camposform {
+    font-size: 9pt !important;
+    font-family: "Source Sans 3" !important;
+    border: 1.5px solid #E8EAEF;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .camposform:focus {
+    box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.1) !important;
+    border-color: #be272e !important;
+  }
+  
+  .button-container {
+    display: none; /* Oculta los botones por defecto */
+  }
+  .button-container.show {
+    display: block; /* Muestra los botones cuando se agrega la clase 'show' */
+  }
+  
+  .btn-interno-1 {
+    font-family: "Sora", sans-serif !important;
+    color: white !important;
+    border-radius: 4px !important;
+    text-align: center !important;
+    background-color: #437a30 !important;
+    font-size: 10px !important;
+    border: none !important;
+  }
+  
+  .btn-interno-1:focus {
+    background-color: #2c5e1c !important;
+    color: white !important;
+  }
+  
+  .btn-interno-1:hover {
+    background-color: #2c5e1c !important;
+    color: white !important;
+  }
+  
+  
+  .btn-interno-2 {
+    font-family: "Sora", sans-serif !important;
+    color: #888d29 !important;
+    border-radius: 4px !important;
+    text-align: center !important;
+    font-size: 10px !important;
+    border: 1px solid #888d29 !important;
+  
+  }
+  
+  .btn-interno-2:focus {
+    background-color: #888d29 !important;
+    color: white !important;
+  }
+  
+  .btn-interno-2:hover {
+    background-color: #888d29 !important;
+    color: white !important;
+  }
+
+
+  .btn-interno-3 {
+    font-family: "Sora", sans-serif !important;
+    color: #29688d !important;
+    border-radius: 4px !important;
+    text-align: center !important;
+    font-size: 10px !important;
+    border: 1px solid #29688d !important;
+  
+  }
+  
+  .btn-interno-3:focus {
+    background-color: #184b68 !important;
+    color: white !important;
+  }
+  
+  .btn-interno-3:hover {
+    background-color: #29688d !important;
+    color: white !important;
+  }
+  
+  
+  .btn-principal {
+    font-family: "Sora", sans-serif !important;
+    color: white !important;
+    border-radius: 4px !important;
+    text-align: center !important;
+    background-color: #437a30 !important;
+    font-size: 13px !important;
+    border: 1px solid #437a30 !important;
+  }
+  
+  .btn-principal:focus {
+    background-color: #2c5e1c !important;
+    color: white !important;
+  }
+  
+  .btn-principal:hover {
+    background-color: #2c5e1c !important;
+    color: white !important;
+  }
+  
+  .btn-secundario {
+    font-family: "Sora", sans-serif !important;
+    color: #888d29 !important;
+    border-radius: 4px !important;
+    text-align: center !important;
+    font-size: 13px !important;
+    border: 1px solid #888d29 !important;
+  }
+  
+  .btn-secundario:focus {
+    background-color: #888d29 !important;
+    color: white !important;
+  }
+  
+  .btn-secundario:hover {
+    background-color: #888d29 !important;
+    color: white !important;
+  }
+  
+  .btn-apoyo {
+    font-family: "Sora", sans-serif !important;
+    color: white !important;
+    border-radius: 4px !important;
+    text-align: center !important;
+    background-color: rgb(16, 61, 129) !important;
+    font-size: 13px !important;
+    border: 1px solid rgb(16, 61, 129) !important;
+  }
+  
+  .btn-apoyo:focus {
+    background-color: rgb(9, 42, 92) !important;
+    color: white !important;
+  }
+  
+  .btn-apoyo:hover {
+    background-color: rgb(9, 42, 92) !important;
+    color: white !important;
+  }
+
+  /* Estilo personalizado para el sidebar */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    padding-top: 56px; /* Altura del navbar */
+    background-color: #fff; /* Color de fondo del sidebar */
+    color: #4D4D4D; /* Color del texto del sidebar */
+    z-index: 1030; /* Asegura que el sidebar esté encima del navbar */
+    border-radius: 0px 30px 30px 0px;
+    opacity: 0px;  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Estilo personalizado para el contenido */
+  .content {
+    margin-left: 250px; /* Ancho del sidebar */
+    padding-top: 56px; /* Altura del navbar */
+  }
+  
+  /* Ajuste para el navbar */
+  .navbar {
+    background: linear-gradient(90deg, #BE272E 0%, #752226 100%);
+  
+    z-index: 1029; /* Asegura que el navbar esté detrás del sidebar */
+  }
+  
+  .nombremenu {
+  
+  display: flex;
+  align-items: center; /* Centrado vertical */
+  width: 85%;
+  background: linear-gradient(90deg, #BE272E 0%, #752226 100%);
+  font-family: "Source Sans 3" !important;
+  font-size: 10pt;
+  font-weight: 600;
+  letter-spacing: -0.011em;
+  text-align: left;
+  color: white;
+  border-radius: 0px 19.5px 19.5px 0px;
+  }
+  
+  .opcionmenu {
+  
+    display: flex;
+    align-items: center;
+    color:rgba(77, 77, 77, 1) !important;
+    font-family: "Source Sans 3" !important;
+    font-size: 9.5pt;
+    font-weight: 500;
+    letter-spacing: -0.011em;
+    text-align: left;
+    color: white;
+    }
+  
+    .opcionmenu:hover {
+      color: rgba(117, 34, 38, 1) !important;
+      font-weight: 700;
+      }
+    
+      .iconomenufuncion {
+        color: rgba(117, 34, 38, 1);
+        font-weight: 400;
+        font-size: 18pt;
+        vertical-align: middle; 
+      
+      }
+      
+    
+  .iconomenu {
+    color: rgba(117, 34, 38, 1);
+    font-weight: 400;
+    font-size: 18pt;
+  
+  }
+  
+  .titulonav {
+   
+    font-family: "Sora";
+    font-weight: 700;
+    font-size: 10px;
+  }
+  
+  .cajonusuario{
+    width: auto; 
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 27px;
+  }
+  
+  .imagenusuario
+  {
+    border-radius: 50%;
+    width: 45px;
+    margin: 2px;
+  }
+  
+  .nombreusuario {
+  
+    font-family: "Source Sans 3";
+    color: white;
+    font-size: 13px;
+  
+  }
+  
+  .contenidotitulofuncion{
+  margin-left: 250px;
+  background-color: white;
+  }
+  
+  .titulomodulo {
+  
+    color: rgba(117, 34, 38, 1);
+    font-weight:700;
+    font-size: 11.5px;
+    font-family: "Sora";
+    }
+  
+  
+  .titulofuncion {
+  
+  color: rgba(117, 34, 38, 1);
+  font-weight: 600;
+  font-size: 12px;
+  font-family: "Sora";
+  }
+  
+  .titulotabla {
+  
+    color: rgba(77, 77, 77, 1) !important;
+    font-weight:600;
+    font-size: 11px;
+    font-family: "Sora";
+    }
+  
+  .desplazar{
+    margin-left: 250px;
+    }
+
+    .desplazarnombre{
+      margin-left: 270px;
+      }
+  
+  .cajaform {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  
+  .textoboton {
+    font-size: 8pt !important;
+    font-weight: 500 !important;
+  }
+  
+  .textoiconocentrar{
+    display: flex; 
+    align-items: center;
+  }
+  
+  .table-striped>tbody>tr:nth-child(odd)>td, 
+  .table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #F2F3F4;
+    }
+  
+  .encabezadotabla {
+    font-family: "Sora";
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba(117, 34, 38, 1) !important;
+  }
+
+  .encabezadotabladt {
+    font-family: "Sora";
+    font-size: 13px;
+    font-weight: 500;
+    border:none;
+    color: rgba(117, 34, 38, 1) !important;
+    margin-top: 10px;
+  }
+
+
+  .contenidotabladt {
+    font-size: 10pt !important;
+    font-family: "Source Sans 3" !important;
+
+  }
+  
+  .contenidotabla {
+    font-family: "Source Sans 3";
+    font-size: 12px;
+    color: #437a30;
+    font-weight: 400;
+  }
+  
+  .iconostabla {
+    font-family: 'Material Symbols Outlined';
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: normal;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+  }
+
+  .iconosaccion {
+    font-family: 'Material Symbols Outlined';
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: normal;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+  }
+
+  .iconoytexto {
+      display: flex;
+  }
+
+  .marginicono {
+    margin-right: 2px;
+  }
+
+  .iconomodificar {
+    color:rgb(9, 42, 92)
+  }
+  .iconoeliminar {
+    color:rgba(117, 34, 38, 1)
+  }
+  
+  .titulomodal {
+    font-family: 'Sora';
+    font-size: 13px !important;
+    font-weight: 600;
+    line-height: 1;
+  }
+  
+  .textomodal {
+    font-family: 'Source Sans 3';
+    color:rgba(77, 77, 77, 1) !important;
+    font-weight: 500;
+    font-size: 13px !important;
+  }
+  
+  .iconomodal{
+    font-size: 20px;
+  }
+  
+  
+  .blanco {
+    color: white!important;
+  }
+  .rojo {
+    color: rgba(117, 34, 38, 1) !important;
+  }
+  .verde {
+    color: #437a30 !important;
+  }
+
+  .amarillo {
+    color: #888d29 !important;
+  }
+  
+  .degradado{
+  background: linear-gradient(90deg, #BE272E 0%, #752226 100%);
+  }
+  
+  .degradadoalternativo {
+  background: linear-gradient(90deg, #40464b,#2b2f32);
+  }
+  
+  .iframe-container {
+    position: relative;
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 43vmin; /* Ocupa el 100% de la altura de la ventana del navegador */
+    margin: 0; /* Opcional: margen para el contenedor */
+    padding: 0; /* Opcional: relleno para el contenedor */
+    overflow: hidden; /* Oculta el desbordamiento */
+  }
+  
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ancho completo del contenedor */
+    height: 100%; /* Altura completa del contenedor */
+    border: none; /* Opcional: quita el borde del iframe */
+  }
+
+  .ancho-modal-tabla {
+    max-width: 70%; 
+}
