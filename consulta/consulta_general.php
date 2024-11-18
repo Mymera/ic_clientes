@@ -36,7 +36,7 @@
         <table class="table table-striped table-bordered mt-3 text-center">
         <thead class="table-dark">         
                 <tr >
-                    <th>Nombrexxx</th>
+                    <th>Nombre</th>
                     <th>Dirección</th>
                     <th>Ciudad</th>
                     <th>Tipo Teléfono</th>

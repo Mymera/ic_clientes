@@ -7,12 +7,12 @@
 # You can add other services your application may depend on here, such as a
 # database or a cache. For examples, see the Awesome Compose repository:
 # https://github.com/docker/awesome-compose
-#mm services:
-#mm server:
-#mm  build:
-#mm   context: .
-#mm ports:
-#mm   - 80:80
+services:
+  server:
+    build:
+      context: .
+    ports:
+      - 80:80
 
 # The commented out section below is an example of how to define a PostgreSQL
 # database that your application can use. `depends_on` tells Docker Compose to
@@ -47,31 +47,3 @@
 #   db-password:
 #     file: db/password.txt
 
-version: '3.8'
-
-services:
-  web:
-    image: apache_php_image
-    build: .
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./app:/var/www/html
-    depends_on:
-      - db
-
-  db:
-    image: mysql:8.0
-    environment:
-      MYSQL_ROOT_PASSWORD: 1234
-      MYSQL_DATABASE: sistema_telefonico
-      MYSQL_USER: mmera
-      MYSQL_PASSWORD: 1234
-    ports:
-      - "3306:3306"
-    volumes:
-      - mysql_data:/var/lib/mysql
-
-volumes:
-  mysql_data:
